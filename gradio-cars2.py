@@ -16,7 +16,7 @@ def generate_response(prompt):
         model="gpt-3.5-turbo-16k-0613",
         temperature=0,
         messages=[
-            {"role": "system", "content": f"{prompt}"},
+            {"role": "system", "content": f"{prompt}"}
         ],
     )
     message = response.choices[0].message.content
