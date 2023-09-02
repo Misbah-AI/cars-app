@@ -59,7 +59,7 @@ def vehicle_assessment(make, model, year, image):
 
         DO NOT write sepertae estimaetuon for each damage, make your predictions based on all of them, so for example, if the damages ar like this:
         severe scratch, severe scratch, medium deformation, severe scratch, severe scratch, severe scratch ... etc,
-
+      
         follow this structure:
 
         Car Damage Assessment and Estimation Report
@@ -69,7 +69,6 @@ Vehicle Information:
     Make: [Vehicle Make]
     Model: [Vehicle Model]
     Year: [Vehicle Year]
-
 
 Damage Description:
 
@@ -83,7 +82,6 @@ Estimated Repair Costs:
     Estimated Parts Cost: $[Parts Cost Estimate]
     Labor Rate: $[Labor Cost Estimate]/hr
     Paint and Materials: $[Paint and Materials Cost Estimate]
-    Additional Costs (if any): $[Additional Costs Estimate]
     Total Estimated Repair Cost: $[Total Estimated Cost]
         
 
@@ -167,7 +165,7 @@ with gr.Blocks() as app:
  
     with gr.Tab("Repair shops and spare parts"):
         gr.Markdown(""" 
-                    ## Based on the damage assessment report, you can repair your car at these repair shops:
+                    ## Based on the damage assesment report, you can repair your car at these repair shops:
 
                     [Location](https://maps.app.goo.gl/DwZRi2Kr18fYBQR96?g_st=ic)
 
