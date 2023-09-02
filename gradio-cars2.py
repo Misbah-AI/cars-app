@@ -59,13 +59,6 @@ def vehicle_assessment(make, model, year, image):
 
         DO NOT write sepertae estimaetuon for each damage, make your predictions based on all of them, so for example, if the damages ar like this:
         severe scratch, severe scratch, medium deformation, severe scratch, severe scratch, severe scratch ... etc,
-        I want the output like this:
-        Repair Description: Bodywork and Paint Repair
-        Estimated Labor Hours: 4
-        Parts Required: Paint, Body Filler, Replacement Parts
-        Estimated Parts Cost: $400
-        Labor Rate: $45/hr
-        Total Estimated Cost: $800 
 
         follow this structure:
 
